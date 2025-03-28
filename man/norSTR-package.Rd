@@ -8,6 +8,14 @@
 \description{
 Allele frequency databases for 50 forensic short tandem repeat (STR) markers, covering Norway and several broader regional populations: Europe, Africa, South America, West Asia, Middle Asia, and East Asia. Developed and maintained for use at the Department of Forensic Sciences, Oslo, Norway.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/magnusdv/norSTR}
+  \item Report bugs at \url{https://github.com/magnusdv/norSTR/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Magnus Dehli Vigeland \email{magnusdv@medisin.uio.no}
 
