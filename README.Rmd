@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# norSTR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Allele frequency databases for forensic short tandem repeat (STR) markers. The package provides allele frequency data for 50 markers, including those from the kits `Fusion 6C` and `SureID` as well as some in-house markers.
+These databases are maintained and used for kinship testing by the Department of Forensic Sciences, Oslo, Norway.
+
+### Populations included:
+
+- Norway
+- Europe
+- Africa
+- South America
+- West Asia
+- Middle Asia
+- East Asia
+
+All frequency values use a minimum threshold of 0.001.
+
+### Installation
+
+```{r, eval = F}
+# install.packages("remotes")
+remotes::install_github("magnusdv/norSTR")
+```
