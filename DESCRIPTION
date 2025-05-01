@@ -1,5 +1,5 @@
 Package: norSTR
-Title: Allele frequencies for 50 forensic STR markers
+Title: Allele Frequencies for 50 Forensic STR Markers
 Version: 0.2.0
 Authors@R: 
     person("Magnus Dehli", "Vigeland", , "m.d.vigeland@medisin.uio.no", role = c("aut", "cre"),
