@@ -1,7 +1,10 @@
 ^norSTR\.Rproj$
+^.github$
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
 ^data-raw$
 ^cran-comments\.md$
 ^CRAN-SUBMISSION$
+^revdep$
+^Rprof.out$
