@@ -3,19 +3,20 @@
 \docType{data}
 \name{norwayDB}
 \alias{norwayDB}
-\title{Norwegian STR database.}
+\title{Norwegian STR allele frequency database}
 \format{
-A list with 50 frequency vectors.
+A list of 50 frequency vectors. Each vector is a numeric with sum 1,
+and uses the allele labels as names.
 }
 \source{
-TODO.
+Department of Forensic Sciences, Oslo University Hospital.
 }
 \usage{
 norwayDB
 }
 \description{
-Allele frequencies for 50 forensic short tandem repeat (STR) markers,
-covering the Norwegian population.
+Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
+the Norwegian population.
 }
 \examples{
 

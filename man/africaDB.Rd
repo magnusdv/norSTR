@@ -3,19 +3,20 @@
 \docType{data}
 \name{africaDB}
 \alias{africaDB}
-\title{African STR database.}
+\title{African STR allele frequency database}
 \format{
-A list with 50 frequency vectors.
+A list of 50 frequency vectors. Each vector is a numeric with sum 1,
+and uses the allele labels as names.
 }
 \source{
-TODO.
+Department of Forensic Sciences, Oslo University Hospital.
 }
 \usage{
 africaDB
 }
 \description{
-An African database of allele frequencies for 50 forensic short tandem repeat
-(STR) markers.
+Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
+the African population.
 }
 \examples{
 
