@@ -1,3 +1,3 @@
-# norSTR 0.2.0
+# norSTR 0.2.1
 
 * Initial CRAN submission.
