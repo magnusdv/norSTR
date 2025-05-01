@@ -4,7 +4,7 @@
 \name{norSTR-package}
 \alias{norSTR}
 \alias{norSTR-package}
-\title{norSTR: Allele frequencies for 50 forensic STR markers}
+\title{norSTR: Allele Frequencies for 50 Forensic STR Markers}
 \description{
 Allele frequency databases for 50 forensic short tandem repeat (STR) markers, covering Norway and several broader regional populations: Europe, Africa, South America, West Asia, Middle Asia, and East Asia. Developed and maintained for use at the Department of Forensic Sciences, Oslo, Norway.
 }
