@@ -4,6 +4,11 @@
 # norSTR
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/norSTR)](https://CRAN.R-project.org/package=norSTR)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR)
+[![](https://cranlogs.r-pkg.org/badges/last-month/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR)
 <!-- badges: end -->
 
 Allele frequency databases for forensic short tandem repeat (STR)
