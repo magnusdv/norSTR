@@ -4,16 +4,23 @@
 # norSTR
 
 <!-- badges: start -->
-<!-- [![CRAN status](https://www.r-pkg.org/badges/version/norSTR)](https://CRAN.R-project.org/package=norSTR) -->
-<!-- [![](https://cranlogs.r-pkg.org/badges/grand-total/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR) -->
-<!-- [![](https://cranlogs.r-pkg.org/badges/last-month/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR) -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/norSTR)](https://CRAN.R-project.org/package=norSTR)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR)
+[![](https://cranlogs.r-pkg.org/badges/last-month/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR)
 <!-- badges: end -->
 
 Allele frequency databases for forensic short tandem repeat (STR)
-markers. The package provides allele frequency data for 50 markers,
-including markers from the `Fusion 6C` and `SureID` kits, among others.
+markers. The package provides allele frequency data for 50 autosomal
+markers, including markers from the `Fusion 6C` and `SureID27` kits,
+among others.
+
 These databases are maintained and used for kinship testing by the
-Department of Forensic Sciences in Oslo, Norway.
+Department of Forensic Sciences in Oslo, Norway. The **norSTR** package
+is used by [KLINK](https://cran.r-project.org/package=KLINK) and other
+packages in the [pedsuite](https://magnusdv.github.io/pedsuite/)
+ecosystem.
 
 ### Populations included:
 
@@ -21,9 +28,9 @@ Department of Forensic Sciences in Oslo, Norway.
 - Europe
 - Africa
 - South America
-- West Asia
-- Middle Asia
 - East Asia
+- Middle Asia
+- West Asia
 
 A minimum allele frequency of 0.001 was applied in all databases.
 Frequencies below this threshold were adjusted to 0.001.
@@ -89,7 +96,8 @@ norSTR::map50
 
 ### Installation
 
+The package can be installed from CRAN with the following command:
+
 ``` r
-# install.packages("pak")
-pak::pkg_install("magnusdv/norSTR")
+install.packages("norSTR")
 ```
