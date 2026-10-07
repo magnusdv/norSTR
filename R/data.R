@@ -1,10 +1,10 @@
 #' Norwegian STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the Norwegian population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the
+#' Norwegian population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
@@ -17,11 +17,11 @@
 
 #' European STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the European population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the
+#' European population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
@@ -34,11 +34,11 @@
 
 #' African STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the African population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the
+#' African population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
@@ -50,11 +50,11 @@
 
 #' South American STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the South American population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the South
+#' American population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
@@ -66,11 +66,11 @@
 
 #' West Asian STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the West Asian population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the West
+#' Asian population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
@@ -83,11 +83,11 @@
 
 #' Mid Asian STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the Mid Asian population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the Mid
+#' Asian population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
@@ -100,11 +100,11 @@
 
 #' East Asian STR allele frequency database
 #'
-#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-#' the East Asian population.
+#' Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the East
+#' Asian population.
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-#'   and uses the allele labels as names.
+#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'

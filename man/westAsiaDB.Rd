@@ -5,8 +5,8 @@
 \alias{westAsiaDB}
 \title{West Asian STR allele frequency database}
 \format{
-A list of 50 frequency vectors. Each vector is a numeric with sum 1,
-and uses the allele labels as names.
+A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+the allele labels as names.
 }
 \source{
 Department of Forensic Sciences, Oslo University Hospital.
@@ -15,8 +15,8 @@ Department of Forensic Sciences, Oslo University Hospital.
 westAsiaDB
 }
 \description{
-Allele frequencies for 50 forensic short tandem repeat (STR) markers covering
-the West Asian population.
+Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the West
+Asian population.
 }
 \examples{
 

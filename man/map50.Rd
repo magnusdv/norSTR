@@ -5,14 +5,13 @@
 \alias{map50}
 \title{Built-in linkage map}
 \format{
-A data frame with 50 rows and 4 columns: \code{Marker}, \code{Chr}, \code{cM},
-\code{Kit}.
+A data frame with 50 rows and 4 columns: \code{Marker}, \code{Chr}, \code{cM}, \code{Kit}.
 }
 \usage{
 map50
 }
 \description{
-A map providing the genetic positions (in centiMorgans) of each STR marker
-featured in this package.
+A map providing the genetic positions (in centiMorgans) of each STR marker featured in
+this package.
 }
 \keyword{datasets}
