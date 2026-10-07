@@ -70,8 +70,8 @@ norSTR::map50
 #> 26      D10S1248  10 169.89917 Fusion6C/SureID
 #> 27          TH01  11   4.48933        Fusion6C
 #> 28      D11S2368  11  32.88891          SureID
-#> 29       D11S554  11  45.00000             MP3
-#> 30        APOAI1  11 117.00000             MP3
+#> 29       D11S554  11  45.00000         Phoenix
+#> 30        APOAI1  11 117.00000         Phoenix
 #> 31           vWA  12  15.63031        Fusion6C
 #> 32       D12S391  12  27.57129 Fusion6C/SureID
 #> 33       D13S325  13  44.90825          SureID
@@ -80,7 +80,7 @@ norSTR::map50
 #> 36       D15S659  15  49.51748          SureID
 #> 37       Penta E  15 124.05054        Fusion6C
 #> 38       D16S539  16  50.00000 Fusion6C/SureID
-#> 39       D17S906  17  14.70000             MP6
+#> 39       D17S906  17  14.70000         Phoenix
 #> 40      D17S1301  17 113.11145          SureID
 #> 41        D18S51  18  88.92051        Fusion6C
 #> 42      D18S1364  18  91.21746          SureID
