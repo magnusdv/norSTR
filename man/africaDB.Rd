@@ -5,7 +5,7 @@
 \alias{africaDB}
 \title{African STR allele frequency database}
 \format{
-A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+A list of 48 frequency vectors. Each vector is a numeric with sum 1, and uses
 the allele labels as names.
 }
 \source{
@@ -15,11 +15,15 @@ Department of Forensic Sciences, Oslo University Hospital.
 africaDB
 }
 \description{
-Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the
-African population.
+Allele frequencies for 48 forensic STR markers in the African population. These include
+all markers in \link{map51} except \code{D3S3045}, \code{D6S477}, and \code{D6S1043}.
 }
 \examples{
 
 africaDB[1:2]
+}
+\seealso{
+\link{norwayDB}, \link{europeDB}, \link{southAmericaDB}, \link{westAsiaDB}, \link{midAsiaDB},
+\link{eastAsiaDB}
 }
 \keyword{datasets}

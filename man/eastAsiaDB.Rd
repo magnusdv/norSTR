@@ -5,7 +5,7 @@
 \alias{eastAsiaDB}
 \title{East Asian STR allele frequency database}
 \format{
-A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+A list of 40 frequency vectors. Each vector is a numeric with sum 1, and uses
 the allele labels as names.
 }
 \source{
@@ -15,12 +15,18 @@ Department of Forensic Sciences, Oslo University Hospital.
 eastAsiaDB
 }
 \description{
-Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the East
-Asian population.
+Allele frequencies for 40 forensic STR markers in the East Asian population. These
+include all markers in \link{map51} except \code{D3S3045}, \code{D5S2800}, \code{D6S477}, \code{D6S1043},
+\code{D7S3048}, \code{D11S2368}, \code{D13S325}, \code{D15S659}, \code{D18S1364}, \code{D19S253}, and
+\code{D22GATA198B05}.
 }
 \examples{
 
 eastAsiaDB[1:2]
 
+}
+\seealso{
+\link{norwayDB}, \link{europeDB}, \link{africaDB}, \link{southAmericaDB}, \link{westAsiaDB},
+\link{midAsiaDB}
 }
 \keyword{datasets}

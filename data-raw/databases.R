@@ -1,23 +1,23 @@
 ## code to prepare `DATASET` dataset goes here
 library(pedtools)
 
-norwayDB = readFreqDatabase("data-raw/NorskDB_v2023.txt", sep = "\t")
+norwayDB = readFreqDatabase("data-raw/databases/NorskDB_v2023.txt", sep = "\t")
 usethis::use_data(norwayDB, overwrite = TRUE)
 
-europeDB = readFreqDatabase("data-raw/EuropaDB_v2023.txt", sep = "\t")
+europeDB = readFreqDatabase("data-raw/databases/EuropaDB_v2023.txt", sep = "\t")
 usethis::use_data(europeDB, overwrite = TRUE)
 
-africaDB = readFreqDatabase("data-raw/AfrikaDB_v2023.txt", sep = "\t")
+africaDB = readFreqDatabase("data-raw/databases/AfrikaDB_v2023.txt", sep = "\t")
 usethis::use_data(africaDB, overwrite = TRUE)
 
-southAmericaDB = readFreqDatabase("data-raw/SydAmerikaDB_v2023.txt", sep = "\t")
+southAmericaDB = readFreqDatabase("data-raw/databases/SydAmerikaDB_v2023.txt", sep = "\t")
 usethis::use_data(southAmericaDB, overwrite = TRUE)
 
-westAsiaDB = readFreqDatabase("data-raw/VestAsiaDB_v2023.txt", sep = "\t")
+westAsiaDB = readFreqDatabase("data-raw/databases/VestAsiaDB_v2023.txt", sep = "\t")
 usethis::use_data(westAsiaDB, overwrite = TRUE)
 
-midAsiaDB = readFreqDatabase("data-raw/MidtAsiaDB_v2023.txt", sep = "\t")
+midAsiaDB = readFreqDatabase("data-raw/databases/MidtAsiaDB_v2023.txt", sep = "\t")
 usethis::use_data(midAsiaDB, overwrite = TRUE)
 
-eastAsiaDB = readFreqDatabase("data-raw/OstAsiaDB_v2023.txt", sep = "\t")
+eastAsiaDB = readFreqDatabase("data-raw/databases/OstAsiaDB_v2023.txt", sep = "\t")
 usethis::use_data(eastAsiaDB, overwrite = TRUE)
