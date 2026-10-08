@@ -21,23 +21,28 @@ knitr::opts_chunk$set(
 [![](https://cranlogs.r-pkg.org/badges/last-month/norSTR?color=yellow)](https://cran.r-project.org/package=norSTR)
 <!-- badges: end -->
 
-Allele frequency databases for forensic short tandem repeat (STR) markers. 
-The package provides allele frequency data for 50 autosomal markers, 
-including markers from the `Fusion 6C` and `SureID27` kits, among others.
+The **norSTR** package contains a genetic map of 51 autosomal STR markers and allele frequency databases for several populations. The marker panel includes the CODIS core loci and markers from commercial kits such as Fusion 6C and SureID27.
 
-These databases are maintained and used for kinship testing by the Department of
+Details and references for the physical positions are provided in
+[`data-raw/STR51_GRCh38_positions.xlsx`](data-raw/STR51_GRCh38_positions.xlsx).
+Genetic positions were obtained from these coordinates using
+`ibdsim2::convertPos()`, based on the recombination map of Halldorsson et al.
+(2019). Allele frequency databases were compiled from published sources and
+in-house data.
+
+These databases are maintained and used for kinship analysis by the Department of
 Forensic Sciences in Oslo, Norway. The **norSTR** package is used by [KLINK](https://cran.r-project.org/package=KLINK) and other packages in the [pedsuite](https://magnusdv.github.io/pedsuite/) ecosystem.
 
 
 ### Populations included:
 
-- Norway
-- Europe
-- Africa
-- South America
-- East Asia
-- Middle Asia
-- West Asia
+- Norway (50 markers)
+- Europe (45 markers)
+- Africa (48 markers)
+- South America (32 markers)
+- East Asia (50 markers)
+- Middle Asia (48 markers)
+- West Asia (40 markers)
 
 A minimum allele frequency of 0.001 was applied in all databases. 
 Frequencies below this threshold were adjusted to 0.001.
@@ -47,9 +52,16 @@ Frequencies below this threshold were adjusted to 0.001.
 The following markers are included in the databases:
 
 ```{r}
-norSTR::map50
+norSTR::map51
 ```
 
+### Marker subsets
+
+For convenience, the package provides subsets of markers corresponding to widely-used kits and panels:
+
+```{r}
+norSTR::markerSets
+```
 
 ### Installation
 
