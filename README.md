@@ -35,16 +35,16 @@ ecosystem.
 - Europe (45 markers)
 - Africa (48 markers)
 - South America (32 markers)
-- East Asia (50 markers)
+- East Asia (40 markers)
 - Middle Asia (48 markers)
-- West Asia (40 markers)
+- West Asia (50 markers)
 
 A minimum allele frequency of 0.001 was applied in all databases.
 Frequencies below this threshold were adjusted to 0.001.
 
-### Markers
+### Marker map
 
-The following markers are included in the databases:
+The current map contains physical and genetic positions of 51 markers:
 
 ``` r
 norSTR::map51
@@ -132,7 +132,7 @@ norSTR::markerSets
 #> [8] "D10S2325" "D21S2055"
 #> 
 #> $phoenix
-#> [1] "D11S554" "APOAI1"  "D17S906"
+#> [1] "D11S554" "APO"     "D17S906"
 #> 
 #> $sureid
 #>  [1] "D1S1656"       "D2S441"        "D3S1744"       "D4S2366"      

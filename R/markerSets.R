@@ -1,6 +1,6 @@
 #' Common STR marker sets
 #'
-#' Lists of autosomal STR markers included in widely-used commercial forensic kits.
+#' Lists of autosomal STR markers included in selected forensic kits and panels.
 #' Sex-determining (e.g. Amelogenin) and non-autosomal markers (e.g. Y markers) are
 #' explicitly omitted.
 #'
@@ -16,7 +16,7 @@
 #' 23 autosomal markers.
 #' * `sureid27`: Combined SureID® 23comp and SureID® PathFinder Plus, 26 autosomal markers.
 #'
-#' @format A named list of 6 character vectors of marker names.
+#' @format A named list of 7 character vectors of marker names.
 #'
 #' @examples
 #' markerSets$fusion6c

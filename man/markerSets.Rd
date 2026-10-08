@@ -5,13 +5,13 @@
 \alias{markerSets}
 \title{Common STR marker sets}
 \format{
-A named list of 6 character vectors of marker names.
+A named list of 7 character vectors of marker names.
 }
 \usage{
 markerSets
 }
 \description{
-Lists of autosomal STR markers included in widely-used commercial forensic kits.
+Lists of autosomal STR markers included in selected forensic kits and panels.
 Sex-determining (e.g. Amelogenin) and non-autosomal markers (e.g. Y markers) are
 explicitly omitted.
 }

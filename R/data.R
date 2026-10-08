@@ -44,7 +44,7 @@
 #' Allele frequencies for 48 forensic STR markers in the African population. These include
 #' all markers in [map51] except `D3S3045`, `D6S477`, and `D6S1043`.
 #'
-#' @format A list of 48 frequency vectors. Each vector is a numeric with sum 1, and uses
+#' @format A list of 48 frequency vectors. Each vector is numeric with sum 1, and uses
 #'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
@@ -66,7 +66,7 @@
 #' `D15S659`, `D17S906`, `D17S1301`, `D18S1364`, `D19S253`, `D20S482`, and
 #' `D22GATA198B05`.
 #'
-#' @format A list of 32 frequency vectors. Each vector is a numeric with sum 1, and uses
+#' @format A list of 32 frequency vectors. Each vector is numeric with sum 1, and uses
 #'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
@@ -85,7 +85,7 @@
 #' Allele frequencies for 50 forensic STR markers in the West Asian population. These
 #' include all markers in [map51] except `D6S1043`
 #'
-#' @format A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
+#' @format A list of 50 frequency vectors. Each vector is numeric with sum 1, and uses
 #'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
@@ -105,7 +105,7 @@
 #' Allele frequencies for 48 forensic STR markers in the Mid Asian population. These
 #' include all markers in [map51] except `D3S3045`, `D6S477`, and `D6S1043`.
 #'
-#' @format A list of 48 frequency vectors. Each vector is a numeric with sum 1, and uses
+#' @format A list of 48 frequency vectors. Each vector is numeric with sum 1, and uses
 #'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
@@ -127,7 +127,7 @@
 #' `D7S3048`, `D11S2368`, `D13S325`, `D15S659`, `D18S1364`, `D19S253`, and
 #' `D22GATA198B05`.
 #'
-#' @format A list of 40 frequency vectors. Each vector is a numeric with sum 1, and uses
+#' @format A list of 40 frequency vectors. Each vector is numeric with sum 1, and uses
 #'   the allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.

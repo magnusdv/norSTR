@@ -5,7 +5,7 @@
 \alias{eastAsiaDB}
 \title{East Asian STR allele frequency database}
 \format{
-A list of 40 frequency vectors. Each vector is a numeric with sum 1, and uses
+A list of 40 frequency vectors. Each vector is numeric with sum 1, and uses
 the allele labels as names.
 }
 \source{
