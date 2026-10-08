@@ -15,12 +15,16 @@ Department of Forensic Sciences, Oslo University Hospital.
 westAsiaDB
 }
 \description{
-Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the West
-Asian population.
+Allele frequencies for 50 forensic STR markers in the West Asian population. These
+include all markers in \link{map51} except \code{D6S1043}
 }
 \examples{
 
 westAsiaDB[1:2]
 
+}
+\seealso{
+\link{norwayDB}, \link{europeDB}, \link{africaDB}, \link{southAmericaDB}, \link{midAsiaDB},
+\link{eastAsiaDB}
 }
 \keyword{datasets}

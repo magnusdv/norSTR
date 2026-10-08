@@ -5,8 +5,8 @@
 \alias{norwayDB}
 \title{Norwegian STR allele frequency database}
 \format{
-A list of 50 frequency vectors. Each vector is a numeric with sum 1, and uses
-the allele labels as names.
+A list of 50 frequency vectors. Each vector is numeric with sum 1, and uses the
+allele labels as names.
 }
 \source{
 Department of Forensic Sciences, Oslo University Hospital.
@@ -15,12 +15,16 @@ Department of Forensic Sciences, Oslo University Hospital.
 norwayDB
 }
 \description{
-Allele frequencies for 50 forensic short tandem repeat (STR) markers covering the
-Norwegian population.
+Allele frequencies for 50 forensic STR markers in the Norwegian population. These
+include all markers in \link{map51} except \code{D6S1043} (not currently available)
 }
 \examples{
 
 norwayDB[1:2]
 
+}
+\seealso{
+\link{europeDB}, \link{africaDB}, \link{southAmericaDB}, \link{westAsiaDB}, \link{midAsiaDB},
+\link{eastAsiaDB}
 }
 \keyword{datasets}
