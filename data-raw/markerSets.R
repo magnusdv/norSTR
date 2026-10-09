@@ -20,7 +20,7 @@ markerSets = list(
   hdplex = c("D2S1360", "D3S1744", "D4S2366", "D5S2500", "D6S474",
              "D7S1517", "D8S1132", "D10S2325", "D21S2055"),
 
-  phoenix = c("D11S554", "APO", "D17S906"),
+  phoenix = c("D11S554", "APOC3", "D17S906"),
 
   sureid = c("D1S1656", "D2S441", "D3S1744", "D4S2366", "D5S2800",
              "D6S474", "D7S3048", "D8S1132", "D9S1122", "D10S1248",

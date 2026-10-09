@@ -11,7 +11,7 @@
 #' * `globalfiler`: GlobalFiler™ PCR Amplification Kit (Applied Biosystems), 21 autosomal
 #' markers.
 #' * `hdplex`: HDplex STR Kit (Qiagen), 9 autosomal markers.
-#' * `phoenix`: 3 autosomal markers (D11S554, APO, D17S906).
+#' * `phoenix`: 3 autosomal markers (D11S554, APOC3, D17S906).
 #' * `sureid`: SureID® 23comp Human STR Identification Kit (Health Gene Technologies),
 #' 23 autosomal markers.
 #' * `sureid27`: Combined SureID® 23comp and SureID® PathFinder Plus, 26 autosomal markers.

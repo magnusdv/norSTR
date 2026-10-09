@@ -33,7 +33,7 @@ as the midpoint of each STR interval.
 \item Recalculated all genetic positions (\code{cM}) with \code{ibdsim2::convertPos()}, using the
 deCODE 2019 recombination map (Halldorsson et al., 2019).
 \item Added marker \code{D6S1043}.
-\item Renamed marker \code{APOAI1} to \code{APO}. (This is an in-house marker not included in
+\item Renamed marker \code{APOAI1} to \code{APOC3}. (This is an in-house marker not included in
 current commercial kits. The original name is a historical label and is no longer
 considered accurate.)
 \item Removed column \code{Kit}. Marker subsets corresponding to various commercial kits are

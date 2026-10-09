@@ -4,7 +4,7 @@
 
 * Updated all genetic positions in `map51` using `ibdsim2::convertPos()` and the deCODE 2019 recombination map.
 
-* Renamed marker `APOAI1` to `APO` in the allele frequency databases. 
+* Renamed marker `APOAI1` to `APOC3` in the allele frequency databases. 
 
 * Added `legacyAPO()` for compatibility with data using the old marker name.
 

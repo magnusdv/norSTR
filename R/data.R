@@ -21,8 +21,8 @@
 #' European STR allele frequency database
 #'
 #' Allele frequencies for 45 forensic STR markers in the European population. These
-#' include all markers in [map51] except `D3S3045`, `D6S477`, `D6S1043`, `D11S554`, `APO`,
-#' and `D17S906`.
+#' include all markers in [map51] except `D3S3045`, `D6S477`, `D6S1043`, `D11S554`,
+#' `APOC3`, and `D17S906`.
 #'
 #' @format A list of 45 frequency vectors. Each vector is numeric with sum 1, and uses the
 #'   allele labels as names.
@@ -62,17 +62,16 @@
 #'
 #' Allele frequencies for 32 forensic STR markers in the South American population. These
 #' include all markers in [map51] except `D3S3045`, `D5S2800`, `D6S477`, `D6S1043`,
-#' `D7S3048`, `D9S1122`, `D10S1435`, `D11S2368`, `D11S554`, `APO`, `D13S325`, `D14S1434`,
-#' `D15S659`, `D17S906`, `D17S1301`, `D18S1364`, `D19S253`, `D20S482`, and
+#' `D7S3048`, `D9S1122`, `D10S1435`, `D11S2368`, `D11S554`, `APOC3`, `D13S325`,
+#' `D14S1434`, `D15S659`, `D17S906`, `D17S1301`, `D18S1364`, `D19S253`, `D20S482`, and
 #' `D22GATA198B05`.
 #'
-#' @format A list of 32 frequency vectors. Each vector is numeric with sum 1, and uses
-#'   the allele labels as names.
+#' @format A list of 32 frequency vectors. Each vector is numeric with sum 1, and uses the
+#'   allele labels as names.
 #'
 #' @source Department of Forensic Sciences, Oslo University Hospital.
 #'
-#' @seealso [norwayDB], [europeDB], [africaDB], [westAsiaDB], [midAsiaDB],
-#'   [eastAsiaDB]
+#' @seealso [norwayDB], [europeDB], [africaDB], [westAsiaDB], [midAsiaDB], [eastAsiaDB]
 #'
 #' @examples
 #'

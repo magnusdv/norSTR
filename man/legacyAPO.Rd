@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{legacyAPO}
 \alias{legacyAPO}
-\title{Use legacy APO marker name}
+\title{Use legacy APOC3 marker name}
 \usage{
 legacyAPO(db)
 }
@@ -13,5 +13,5 @@ legacyAPO(db)
 The modified database.
 }
 \description{
-Replace marker name \code{APO} by the legacy name \code{APOAI1} in a frequency database.
+Replace marker name \code{APOC3} by the legacy name \code{APOAI1} in a frequency database.
 }

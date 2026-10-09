@@ -15,7 +15,7 @@
 #' * Recalculated all genetic positions (`cM`) with `ibdsim2::convertPos()`, using the
 #' deCODE 2019 recombination map (Halldorsson et al., 2019).
 #' * Added marker `D6S1043`.
-#' * Renamed marker `APOAI1` to `APO`. (This is an in-house marker not included in
+#' * Renamed marker `APOAI1` to `APOC3`. (This is an in-house marker not included in
 #' current commercial kits. The original name is a historical label and is no longer
 #' considered accurate.)
 #' * Removed column `Kit`. Marker subsets corresponding to various commercial kits are

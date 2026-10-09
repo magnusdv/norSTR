@@ -16,8 +16,8 @@ europeDB
 }
 \description{
 Allele frequencies for 45 forensic STR markers in the European population. These
-include all markers in \link{map51} except \code{D3S3045}, \code{D6S477}, \code{D6S1043}, \code{D11S554}, \code{APO},
-and \code{D17S906}.
+include all markers in \link{map51} except \code{D3S3045}, \code{D6S477}, \code{D6S1043}, \code{D11S554},
+\code{APOC3}, and \code{D17S906}.
 }
 \examples{
 

@@ -5,8 +5,8 @@
 \alias{southAmericaDB}
 \title{South American STR allele frequency database}
 \format{
-A list of 32 frequency vectors. Each vector is numeric with sum 1, and uses
-the allele labels as names.
+A list of 32 frequency vectors. Each vector is numeric with sum 1, and uses the
+allele labels as names.
 }
 \source{
 Department of Forensic Sciences, Oslo University Hospital.
@@ -17,8 +17,8 @@ southAmericaDB
 \description{
 Allele frequencies for 32 forensic STR markers in the South American population. These
 include all markers in \link{map51} except \code{D3S3045}, \code{D5S2800}, \code{D6S477}, \code{D6S1043},
-\code{D7S3048}, \code{D9S1122}, \code{D10S1435}, \code{D11S2368}, \code{D11S554}, \code{APO}, \code{D13S325}, \code{D14S1434},
-\code{D15S659}, \code{D17S906}, \code{D17S1301}, \code{D18S1364}, \code{D19S253}, \code{D20S482}, and
+\code{D7S3048}, \code{D9S1122}, \code{D10S1435}, \code{D11S2368}, \code{D11S554}, \code{APOC3}, \code{D13S325},
+\code{D14S1434}, \code{D15S659}, \code{D17S906}, \code{D17S1301}, \code{D18S1364}, \code{D19S253}, \code{D20S482}, and
 \code{D22GATA198B05}.
 }
 \examples{
@@ -26,7 +26,6 @@ include all markers in \link{map51} except \code{D3S3045}, \code{D5S2800}, \code
 southAmericaDB[1:2]
 }
 \seealso{
-\link{norwayDB}, \link{europeDB}, \link{africaDB}, \link{westAsiaDB}, \link{midAsiaDB},
-\link{eastAsiaDB}
+\link{norwayDB}, \link{europeDB}, \link{africaDB}, \link{westAsiaDB}, \link{midAsiaDB}, \link{eastAsiaDB}
 }
 \keyword{datasets}
