@@ -5,7 +5,7 @@ map51 = readxl::read_excel("data-raw/STR51_GRCh38_positions.xlsx") |>
   select(Marker, Chr, Mb, Kit) |>
   mutate(cM = convertPos(Chr, Mb = Mb), .after = "Mb")
 
-map51
+map51 |> as.data.frame()
 
 usethis::use_data(map51, overwrite = TRUE)
 
