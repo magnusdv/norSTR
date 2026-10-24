@@ -1,4 +1,4 @@
-# norSTR 0.3.0
+# norSTR 0.3.1
 
 * Added `map51`, an updated marker map with both physical (GRCh38) and genetic positions for 51 STR markers, including the new marker `D6S1043`. The previous `map50` is retained for reproducibility.
 

@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 The **norSTR** package contains a genetic map of 51 autosomal STR markers and allele frequency databases for several populations. The marker panel includes the CODIS core loci and markers from commercial kits such as Fusion 6C and SureID27.
 
 Details and references for the physical positions are provided in
-[`data-raw/STR51_GRCh38_positions.xlsx`](data-raw/STR51_GRCh38_positions.xlsx).
+[data-raw/STR51_GRCh38_positions.xlsx](https://github.com/magnusdv/norSTR/raw/refs/heads/master/data-raw/STR51_GRCh38_positions.xlsx)
 Genetic positions were obtained from these coordinates using
 `ibdsim2::convertPos()`, based on the recombination map of Halldorsson et al.
 (2019). Allele frequency databases were compiled from published sources and
